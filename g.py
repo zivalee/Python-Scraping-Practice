@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoupimport requestsr = requests.get('https://www.amazon.com')soup = BeautifulSoup(r.content, 'lxml')print(soup)

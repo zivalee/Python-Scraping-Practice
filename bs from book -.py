@@ -1,0 +1,1 @@
+from urllib.request import urlopenfrom urllib.error import HTTPErrorfrom bs4 import BeautifulSoupimport repages = set()def getlinks(url):    global pages    try:        html = urlopen('http://en.wikipedia.org' + url)        soup = BeautifulSoup(html, 'lxml')
