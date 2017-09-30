@@ -1,2 +1,2 @@
 # Python-Scraping-Practice
-Just some practice code for scraping
+Just some python practice code for scraping
